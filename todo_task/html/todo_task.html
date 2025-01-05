@@ -1,0 +1,41 @@
+<!-- todoList 과제 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>todoList 과제</title>
+ <link rel="stylesheet" href="./../css/todo_task.css">
+ <script defer src="./../js/todo_task.js"></script>
+ <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <header>
+        <h2>To do List</h2>
+        <nav>
+          <ul>
+            <li>지난 할 일 목록</li>
+            <li>오늘 할 일 목록</li>
+            <li>내일 할 일 목록</li>
+         </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Tasks</h2>
+        <ul class="taskList">
+            <li>
+                <input type="checkbox" class="chBox" checked>java 과제하기
+                <button type="button" class="delete">삭제</button>
+            </li>
+            
+
+        </ul>
+        <button type="button" id="addBtn">할일추가</button>
+
+    </main>
+
+ 
+</body>
+</html>

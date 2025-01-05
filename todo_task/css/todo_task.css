@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+/* 헤더부분 */
+header{
+    background-color: rgb(13, 48, 59);
+    width: 100%;
+    height: 150px;
+    color: white;
+    justify-content:last baseline;
+    text-align: center;
+}
+h2{
+    width: 100%;
+    height: 20%;
+    padding: 20px 0px;
+}
+nav{
+    width: 30%;
+    /* height: 100px; */
+    /* border: 1px solid black; */
+    margin: auto;
+}
+nav>ul{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+nav>ul>li{
+border-bottom: 1px solid white;
+padding: 10px;
+cursor: pointer;
+}
+nav>ul>li:hover{
+    color: yellow;
+    font-weight: bold;
+}
+
+
+/* 본문 */
+main{
+    margin: 30px auto;
+    width: 500px;
+    border: 1px solid rgb(13, 48, 59);
+    text-align: center;
+}
+.taskList{
+    width: 100%;
+}
+.taskList>li{
+    margin: auto;
+width: 90%;
+border-bottom: 1px solid rgb(173, 173, 173);
+text-align: left;
+padding: 5px;
+
+}
+.taskList>li>input{
+    float: left;
+    margin: 5px 10px;
+}
+
+.delete{
+    float: right;
+    padding: 0px 5px;
+}
+.delete:hover{
+background-color: cadetblue;
+color: white;
+}
+
+#addBtn{
+    padding: 5px 20px;
+    margin: 20px;
+}
+#addBtn:hover{
+    background-color:firebrick;
+    color: white;
+}
+
+
